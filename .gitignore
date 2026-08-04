@@ -1,0 +1,20 @@
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store
+
+# Cursor
+.cursor/
+
+# VS Code
+.vscode/
+
+# Node
+node_modules/
+
+# Environment
+.env
+
+# Logs
+*.log
