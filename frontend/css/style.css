@@ -81,7 +81,7 @@ font-weight:bold;
 
 /* ===========================
    MAIN CONTENT
-=========================== */
+   =========================== */
 
 .container{
     width:90%;
@@ -107,17 +107,86 @@ section p{
 /* HERO */
 
 .hero{
-    background:#f3f4f6;
-    text-align:center;
-    padding:100px 20px;
+
+background:linear-gradient(
+rgba(0,90,70,.75),
+rgba(0,90,70,.75)
+),
+
+url("../images/hero.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+color:white;
+
+text-align:center;
+
+padding:150px 20px;
+
 }
 
 .hero h2{
-    font-size:42px;
+
+font-size:52px;
+
+margin-bottom:20px;
+
+color:white;
+
 }
 
 .hero p{
-    font-size:20px;
+
+font-size:22px;
+
+color:white;
+
+max-width:700px;
+
+margin:auto;
+
+line-height:1.8;
+
+}
+
+.hero-content{
+
+max-width:900px;
+
+margin:auto;
+
+}
+
+.btn{
+
+display:inline-block;
+
+margin-top:40px;
+
+padding:15px 35px;
+
+background:#FFD54F;
+
+color:#065f46;
+
+text-decoration:none;
+
+font-weight:bold;
+
+border-radius:8px;
+
+transition:.3s;
+
+}
+
+.btn:hover{
+
+background:#FFC107;
+
+transform:translateY(-3px);
+
 }
 
 /* PROGRAM */
@@ -126,10 +195,15 @@ section p{
     background:white;
 }
 
+.program-list{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
 .card{
-    display:inline-block;
     width:250px;
-    margin:15px;
     padding:30px;
     background:white;
     border-radius:10px;
