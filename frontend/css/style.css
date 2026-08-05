@@ -78,3 +78,77 @@ font-weight:bold;
     font-size:18px;
 
 }
+
+/* ===========================
+   MAIN CONTENT
+=========================== */
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+section{
+    padding:70px 0;
+}
+
+section h2{
+    color:#065f46;
+    margin-bottom:20px;
+    font-size:32px;
+}
+
+section p{
+    line-height:1.8;
+    color:#444;
+}
+
+/* HERO */
+
+.hero{
+    background:#f3f4f6;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h2{
+    font-size:42px;
+}
+
+.hero p{
+    font-size:20px;
+}
+
+/* PROGRAM */
+
+#program{
+    background:white;
+}
+
+.card{
+    display:inline-block;
+    width:250px;
+    margin:15px;
+    padding:30px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,.1);
+    text-align:center;
+    font-size:22px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+#berita,
+#ppdb,
+#donasi,
+#galeri,
+#kontak{
+    background:#f8fafc;
+}
+
